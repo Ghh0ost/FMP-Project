@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 358a088875c122249a2b091e18b99d3e
+guid: 40bc8fa2857b0194b98e0b051e8bf994
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -25,7 +25,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -129,49 +129,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Pixilart Sprite Sheet_0
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 113
-        width: 403
-        height: 274
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba530bc78b43c5741b2d298af4a9dce8
-      internalID: -897768803
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pixilart Sprite Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 515
-        y: 113
-        width: 403
-        height: 274
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27a873dbf2fda89499344a7b54d28af4
-      internalID: 1300966685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -182,10 +140,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Pixilart Sprite Sheet_0: -897768803
-      Pixilart Sprite Sheet_1: 1300966685
-  spritePackingTag: 
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
