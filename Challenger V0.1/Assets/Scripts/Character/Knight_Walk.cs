@@ -20,11 +20,13 @@ public class Knight_Walk : MonoBehaviour
         {
             Walk_Anim.SetBool("isWalking", true);
             Walk_Anim.Play("Walk_Anim");
-        }
+            Debug.Log("Walk");
+;        }
         if (move == 0)
         {
             Walk_Anim.SetBool("isWalking", false);
             Walk_Anim.Play("Knight idle");
+            Debug.Log("Idle");
         }
     }
 }
