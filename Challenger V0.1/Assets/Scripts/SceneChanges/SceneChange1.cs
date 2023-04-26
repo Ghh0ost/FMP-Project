@@ -8,6 +8,6 @@ public class SceneChange1 : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("Scene 2");
     }
 }
