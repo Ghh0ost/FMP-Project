@@ -5,9 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class OnCollideRightBorder : MonoBehaviour
 {
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        if (other.gameObject.tag == "Player")
-            SceneManager.LoadScene("MeetTheKing");
+        Debug.Log("hit " + col.gameObject.tag);
+
+
+        if (col.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene("Scene 1");
+        }
     }
 }
