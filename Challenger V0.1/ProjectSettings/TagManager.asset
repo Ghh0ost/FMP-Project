@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Platform
   - NPC
+  - Active Border
+  - Inactive Border
   layers:
   - Default
   - TransparentFX

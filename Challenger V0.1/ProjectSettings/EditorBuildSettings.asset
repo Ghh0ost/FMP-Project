@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/EnterYourName.unity
     guid: cb8afe3c45b671b4a8793c0dbeb64c4e
+  - enabled: 1
+    path: Assets/Scenes/Knight Path/Scene 1.unity
+    guid: 358e988923f58a246902e98ec24b8741
+  - enabled: 1
+    path: Assets/Scenes/Knight Path/Scene 2.unity
+    guid: b8c6504139b1eac418113df3086760bd
+  - enabled: 1
+    path: Assets/Scenes/Knight Path/MeetTheKing.unity
+    guid: 62374af588ba50e42aab32b1ec581d5a
   m_configObjects: {}
