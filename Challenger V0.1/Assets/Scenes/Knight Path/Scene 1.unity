@@ -610,7 +610,6 @@ GameObject:
   - component: {fileID: 851994291}
   - component: {fileID: 851994290}
   - component: {fileID: 851994289}
-  - component: {fileID: 851994288}
   m_Layer: 0
   m_Name: Square (1)
   m_TagString: Inactive Border
@@ -618,18 +617,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &851994288
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 851994287}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b99439a765d88fd459c6809afeb2a0c6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!61 &851994289
 BoxCollider2D:
   m_ObjectHideFlags: 0

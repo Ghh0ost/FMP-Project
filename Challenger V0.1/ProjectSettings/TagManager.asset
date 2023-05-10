@@ -8,6 +8,8 @@ TagManager:
   - NPC
   - Active Border
   - Inactive Border
+  - Item
+  - Active Border 2
   layers:
   - Default
   - TransparentFX
