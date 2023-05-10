@@ -14,7 +14,7 @@ public class PlayerCollision : MonoBehaviour
         {
             SceneManager.LoadScene("MeetTheKing");
         }
-        if (col.gameObject.tag == "Active Border")
+        else if (col.gameObject.tag == "Active Border")
         {
             SceneManager.LoadScene("Scene 1");
         }
