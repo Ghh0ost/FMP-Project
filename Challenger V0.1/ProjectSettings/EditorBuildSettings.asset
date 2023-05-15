@@ -8,15 +8,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Start Screen.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
-    path: Assets/Scenes/EnterYourName.unity
-    guid: cb8afe3c45b671b4a8793c0dbeb64c4e
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/Knight Path/Scene 1.unity
     guid: 358e988923f58a246902e98ec24b8741
   - enabled: 1
     path: Assets/Scenes/Knight Path/Scene 2.unity
     guid: b8c6504139b1eac418113df3086760bd
+  - enabled: 1
+    path: Assets/Scenes/Knight Path/Scene 3.unity
+    guid: 4f19f15bd4830e4468385f0eb557ac3b
   - enabled: 1
     path: Assets/Scenes/Knight Path/MeetTheKing.unity
     guid: 62374af588ba50e42aab32b1ec581d5a

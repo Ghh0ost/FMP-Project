@@ -12,7 +12,7 @@ public class OnCollideLeftBorder : MonoBehaviour
 
         if (col.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("MeetTheKing");
+            SceneManager.LoadScene("Scene 1");
         }
     }
 }

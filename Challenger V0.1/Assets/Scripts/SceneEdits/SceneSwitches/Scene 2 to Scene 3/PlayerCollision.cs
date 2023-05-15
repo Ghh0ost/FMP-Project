@@ -12,7 +12,7 @@ public class PlayerCollision : MonoBehaviour
 
         if (col.gameObject.tag == "Active Border 2")
         {
-            SceneManager.LoadScene("MeetTheKing");
+            SceneManager.LoadScene("Scene 3");
         }
         else if (col.gameObject.tag == "Active Border")
         {
