@@ -1,21 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerChange : MonoBehaviour
 {
-    public player GameObject;
-    public void LoadNextScene()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (player.transform.position.x == 7.291129)
-        {
-            SceneManager.LoadScene("Scene 3");
-        }
 
-        if (player.transform.position.x == -9.491129)
+        if (other.CompareTag("Active Border 2"))
         {
-            SceneManager.LoadScene("Scene 1");
+            SceneManager.LoadScene(1);
         }
-
+        else if (other.CompareTag("Active Border"))
+        {
+            SceneManager.LoadScene(3);
+        }
     }
 }

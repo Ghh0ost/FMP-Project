@@ -19,6 +19,7 @@ public class Knight_Walk : MonoBehaviour
         if (move != 0)
         {
             Walk_Anim.SetBool("isWalking", true);
+            Walk_Anim.SetBool("isAttacking", false);
             Walk_Anim.Play("Walk_Anim");
             Debug.Log("Walk");
 ;        }
@@ -26,9 +27,27 @@ public class Knight_Walk : MonoBehaviour
         if (move == 0)
         {
             Walk_Anim.SetBool("isWalking", false);
+            Walk_Anim.SetBool("isAttacking", false);
             Walk_Anim.Play("Knight idle");
             Debug.Log("Idle");
         }
+
+/*        if (Input.GetMouseButtonDown(0) && move != 0)
+        {
+            Walk_Anim.SetBool("isWalking", false);
+            Walk_Anim.SetBool("isAttacking", true);
+            Walk_Anim.Play("Attack 1");
+            Debug.Log("Attack");
+        }
+
+        if (Input.GetMouseButtonDown(0) && move == 0)
+        {
+            Walk_Anim.SetBool("isWalking", false);
+            Walk_Anim.SetBool("isAttacking", true);
+            Walk_Anim.Play("Attack 1");
+            Debug.Log("Attack");
+        }*/
+
     }
 }
 

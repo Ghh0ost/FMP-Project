@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a8b6ecc0ffe9a414a866371ef5ab2c07
+guid: 66ce45e30f667e04b8c4b377065868a8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -25,7 +25,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -129,7 +129,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Portrait_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 293
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403cf5acc24f47643af3733379d444b1
+      internalID: -945976120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -140,8 +161,58 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
-  spritePackingTag: 
+    nameFileIdTable:
+      Walk_18: -1887701846
+      Walk_40: 603171730
+      Walk_5: -1979322478
+      Walk_12: 1673716785
+      Walk_10: -122588929
+      Walk_20: -70417824
+      Walk_4: 2004931888
+      Walk_45: -843156312
+      Walk_30: 373792945
+      Walk_6: 2095268996
+      Walk_27: -1778502608
+      Walk_17: -731526862
+      Walk_24: -1834950780
+      Walk_2: 1693336631
+      Walk_35: 1736022541
+      Walk_7: 285766976
+      Walk_3: 136784280
+      Walk_1: 743251121
+      Walk_25: -509746137
+      Walk_19: 1488276986
+      Walk_14: -119688274
+      Walk_34: -1443706332
+      Walk_32: -959585033
+      Walk_38: -804964512
+      Walk_37: 1548331484
+      Walk_33: 1108820836
+      Portrait_0: -945976120
+      Walk_22: -895377578
+      Walk_21: 495166441
+      Walk_31: -1949051621
+      Walk_39: 1622208358
+      Walk_29: 1181440102
+      Walk_0: -2034459631
+      Walk_9: 1455747861
+      Walk_42: -199030572
+      Walk_16: 443119767
+      Walk_43: -1211666747
+      Walk_41: 435666473
+      Walk_11: 2136339127
+      Walk_48: 2042476249
+      Walk_8: 791382103
+      Walk_26: 1766663237
+      Walk_36: 847843080
+      Walk_46: 932670682
+      Walk_28: -1144862529
+      Walk_15: -458033470
+      Walk_13: 1814436708
+      Walk_23: -525865868
+      Walk_44: 453901939
+      Walk_47: -416510575
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
