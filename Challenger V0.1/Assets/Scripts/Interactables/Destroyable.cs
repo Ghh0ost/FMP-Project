@@ -13,10 +13,6 @@ public class Destroyable : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        if (Destroy == false)
-        {
-
-        }
         
     }
 }

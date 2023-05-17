@@ -141,7 +141,7 @@ MonoBehaviour:
       type: 2
       typeString: CustomFieldType_Boolean
     - title: Track
-      value: False
+      value: True
       type: 2
       typeString: CustomFieldType_Boolean
   locations: []
@@ -149,13 +149,13 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Name
-      value: Alert
+      value: Enemy Slain!
       type: 0
       typeString: CustomFieldType_Text
     - title: Initial Value
-      value: 
-      type: 0
-      typeString: CustomFieldType_Text
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
     - title: Description
       value: 
       type: 0
@@ -419,7 +419,10 @@ MonoBehaviour:
       conditionPriority: 2
       outgoingLinks: []
       conditionsString: 
-      userScript: SetQuestState("Protect the King", "active")
+      userScript: 'SetQuestState("Protect the King", "active");
+
+        ShowAlert("Protect
+        the King!");'
       onExecute:
         m_PersistentCalls:
           m_Calls: []
@@ -430,8 +433,8 @@ MonoBehaviour:
         width: 160
         height: 30
     entryGroups: []
-    canvasScrollPosition: {x: 233.35216, y: 355.74072}
-    canvasZoom: 1.06
+    canvasScrollPosition: {x: 66.11244, y: 242.19951}
+    canvasZoom: 1.0899999
   syncInfo:
     syncActors: 0
     syncItems: 0
