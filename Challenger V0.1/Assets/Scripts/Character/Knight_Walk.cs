@@ -17,35 +17,50 @@ public class Knight_Walk : MonoBehaviour
     void Update()
     {
         var move = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
-        if (move != 0)
-        {
-            Walk_Anim.SetBool("isIdle", false);
-            Walk_Anim.SetBool("isWalking", true);
-            Walk_Anim.Play("Walk_Anim");
-            Debug.Log("Walk");
-;        }
 
-        if (move == 0)
+        if (Input.GetMouseButtonDown(0))
         {
-            Walk_Anim.SetBool("isWalking", false);
-            Walk_Anim.SetBool("isIdle", true);
-            Walk_Anim.Play("Knight idle");
-            Debug.Log("Idle");
+            //Walk_Anim.SetBool("isAttack", true);
+            Walk_Anim.SetTrigger("Attack");
+            Walk_Anim.Play("Attack");
+
+        } 
+        else 
+        { 
+
+            if (move != 0)
+            {
+                Walk_Anim.SetBool("isIdle", false);
+                //Walk_Anim.SetBool("isAttack", false);
+                //Walk_Anim.Play("Walk_Anim");
+                //Debug.Log("Walk");
+    ;        }
+
+            if (move == 0)
+            {
+                Walk_Anim.SetBool("isIdle", true);
+                //Walk_Anim.SetBool("isAttack", false);
+                //Walk_Anim.Play("Knight idle");
+                //Debug.Log("Idle");
+            }
+
         }
 
+        /*
         if (Input.GetMouseButtonDown(0) && move == 0)
         {
-            Walk_Anim.SetBool("isIdle", false);
-            Walk_Anim.Play("Attack 1");
-            Debug.Log("Attack");
+            Walk_Anim.SetBool("isIdle", true);
+
+            //Debug.Log("Attack is idle false");
         }
 
         if (Input.GetMouseButtonDown(0) && move != 0)
         {
-            Walk_Anim.SetBool("isWalking", false);
-            Walk_Anim.Play("Attack 1");
-            Debug.Log("Attack");
+            Walk_Anim.SetBool("isIdle", false); 
+
+            //Debug.Log("Attack is walking false");
         }
+        */
     }
 }
 
